@@ -1,0 +1,103 @@
+h1{
+    color:red;
+    margin-left: 30px;
+}
+body{
+    text-align:center;
+    background-color:#051c3f
+}
+
+
+
+.grid{
+    display:flex;
+    flex-wrap:wrap;
+justify-content: space-evenly;
+}
+
+.header{
+
+background-color: rgb(99, 206, 255);
+
+
+
+display:flex;
+justify-content: space-between;
+}
+
+
+.socialMedia{
+    background-color:#595a5a;
+    position:fixed;
+  bottom: 0;
+    width: 100%;
+    display:flex;
+    justify-content:space-around;
+   
+}
+
+.text{
+    font-size: 30px;
+    color: 
+    #8cdbff
+    
+}
+
+.item{
+    color: 
+    #8cdbff
+    
+    
+}
+
+
+
+.links{
+padding: 30px;
+
+}
+
+.index{
+    margin-right: 20px;
+}
+
+
+a:link{
+    color: white;
+}
+
+a:visited{
+    color:white;
+}
+
+.item{
+    position:relative;
+}
+
+.item p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    opacity:0;
+    transform: translate(-50%,-50%);
+}
+
+.item:hover p{
+    opacity: 1;
+}
+
+.item:hover img{
+    opacity: 0.33;
+}
+
+.FB:hover img{
+    opacity: 0.50;
+}
+.Insta:hover img{
+    opacity: 0.50;
+}
+.Yt:hover img{
+    opacity: 0.50;
+}
+
+
